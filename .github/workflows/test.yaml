@@ -8,7 +8,4 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: k-rf/custom-github-actions/app/modules/example
-      - uses: k-rf/custom-github-actions/app/modules/sample
+    uses: k-rf/custom-github-actions/.github/workflows/example-workflow.yaml@main
